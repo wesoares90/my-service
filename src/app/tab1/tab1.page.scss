@@ -1,0 +1,49 @@
+ion-card{
+    background-color: #fff;
+    margin: 15px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    span{
+        margin-left: 3px;
+    }
+    .wrapper{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.bottom{
+    p, .step-block{
+        margin: 7px 0;
+    }
+    .step-block{
+        display: flex;
+        justify-content: space-between;
+        .step{
+            width: 24%;
+            background: #dedfe0;
+            height: 8px;
+            &:first-child{
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+            &:last-child{
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+        .check{
+            background: #92949c;
+        }
+    }
+    .lock{
+        justify-content: end;
+        display: flex;
+        align-items: center;
+    }
+}

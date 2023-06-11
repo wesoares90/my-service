@@ -9,4 +9,19 @@ export class Tab1Page {
 
   constructor() {}
 
+  isModalOpen = false;
+
+  orderList = [
+    {
+      name: 'rola',
+      person: 'Paulo Jorge',
+      distance: 'Menos de 1 Km'
+    }
+  ];
+
+  setOpen(isOpen: boolean) {
+    this.isModalOpen = isOpen;
+  }
+
+
 }
